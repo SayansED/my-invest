@@ -1,0 +1,5 @@
+package br.com.eduardo.myinvest.repository;
+
+public interface InvestimentoRepository {
+
+}

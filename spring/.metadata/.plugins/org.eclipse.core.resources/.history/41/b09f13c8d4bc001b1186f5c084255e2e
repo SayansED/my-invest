@@ -1,0 +1,20 @@
+package br.com.eduardo.myinvest.resources;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.eduardo.myinvest.domain.Investimento;
+
+@RestController
+@RequestMapping("/investimentos")
+public class InvestimentoResource {
+	
+	@GetMapping
+	public List<Investimento> listarTodos(){
+		
+	}
+
+}

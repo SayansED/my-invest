@@ -1,0 +1,3 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/my-invest
+spring.datasource.username=postgres
+spring.datasource.password=210799
